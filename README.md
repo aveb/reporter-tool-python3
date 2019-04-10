@@ -16,7 +16,7 @@ The ```reporter.py``` program will return:
 
 You will need have the following installed on your machine before running ```reporter.py```: 
 
-- You must have Python 2 installed.  You can find detailed instalation instructions and a link to the download [HERE](https://www.python.org/downloads/)
+- You must have Python 3 installed.  You can find detailed instalation instructions and a link to the download [HERE](https://www.python.org/downloads/)
 - ```reporter.py``` runs on a linux-based virtual machine called ```VirtualBox```.  You can download it for free [HERE](https://www.virtualbox.org/wiki/Download_Old_Builds_5_1)
 - After installing ```VirtualBox```, you will need to download an additional tool: ```Vagrant```.  This software allows you to share files between your host and virtual machine.  You can read more and download ```Vagrant``` [HERE](https://www.vagrantup.com/downloads.html)
 
