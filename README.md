@@ -24,6 +24,8 @@ You will need have the following installed on your machine before running ```rep
 
 The ```Reporter``` tool requires you to first download the ```news``` database and load it into your ```VirtualBox``` VM.  Download the data [HERE](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip).  Unzip the file, then move the file ```newsdata.sql``` into the ```vagrant``` directory located inside your virtual machine.
 
+Then run ```psql -d news -f newsdata.sql``` in order to create and populate the news database with the tables and data you will be analyzing with ```reporter.py```.
+
 Two ```views``` must be created first before you can run ```reporter.py```.  Make sure you first connect with the ```news``` database in your terminal.
 
 - First ```view```.  This creates ```articles_authors```, a table that matches all of the authors with the slug of their articles by **joining** the ```authors``` and ```articles``` tables.  This will be used by ```reporter.py``` to report the most popular authors by views.
