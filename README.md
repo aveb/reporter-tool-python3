@@ -46,4 +46,10 @@ Two ```views``` must be created first before you can run ```reporter.py```.  Mak
 
 ```reporter.py``` can be run from your terminal using the following command:
 
-        $ python reporter.py
+        $ python3 reporter.py
+
+## Potential Bugs
+It may be necessary for you to manually install ```posgresql```.  If you receive an ```import error: No module named psycopg```, run the following code to install the dependency for use in python3 code:
+
+1. ```sudo apt-get install python3 python-dev python3-dev```
+2. ```sudo pip3 install psycopg2```
